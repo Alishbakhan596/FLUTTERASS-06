@@ -8,9 +8,9 @@ class CalculatorUI extends StatefulWidget {
 }
 
 class _CalculatorUIState extends State<CalculatorUI> {
-  // String number1 = ""; // . 0-9
-  // String operand = ""; // = - * /
-  // String number2 = ""; // . 0-9
+  String number1 = ""; // . 0-9
+  String operand = ""; // = - * /
+  String number2 = ""; // . 0-9
 
   @override
   Widget calcbutton(String btntxt, Color btncolor, Color txtcolor) {
