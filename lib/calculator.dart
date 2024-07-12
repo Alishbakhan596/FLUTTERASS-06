@@ -61,7 +61,7 @@ class _CalculatorUIState extends State<CalculatorUI> {
                     child: Text(
                       text,
                       textAlign: TextAlign.left,
-                      style: TextStyle(color: Colors.white, fontSize: 100),
+                      style: TextStyle(color: Colors.white, fontSize: 60),
                     ),
                   ),
                 ],
@@ -69,11 +69,7 @@ class _CalculatorUIState extends State<CalculatorUI> {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
-                  calcbutton(
-                    'C',
-                    Colors.grey,
-                    Colors.black,
-                  ),
+                  calcbutton('C', Colors.grey, Colors.black),
                   calcbutton('+/-', Colors.grey, Colors.black),
                   calcbutton('%', Colors.grey, Colors.black),
                   calcbutton('/', Colors.grey, Colors.black),
